@@ -43,11 +43,11 @@ body {
 
 
 .site-imgs{
-  width:300px;
-  height:300px;
+  width:2500px;
+  height:250px;
   border-color: bold green;
   padding-right: 45px;
-
+s
 }
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
