@@ -48,14 +48,15 @@ body {
   border-color: bold green;
   padding-right: 45px;
 }
-.clearfix::after {
-    content: "";
+.clearfix {
+    overflow: auto;
     clear: both;
 }
 
 
-@media only screen and (max-width: 768px){
-  float::before
+{
+
+
 }
 
 
