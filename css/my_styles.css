@@ -25,6 +25,8 @@ body {
   position: relative;
   bottom: 110px;
   max-width:560px;
+  float:right 0,5em;
+  box-sizing: border-box;
 }
 #castle-p{
   position: relative;
@@ -44,9 +46,9 @@ body {
 
 .site-imgs{
   width:200px;
-  height:200px;
-  border-color: bold green;
+  height:150px;
   padding-right: 45px;
+  margin-left:  10px;
 }
 .clearfix {
     overflow: auto;
@@ -58,7 +60,7 @@ body {
 .City {
     width: 90%;
     padding-left: 10px;
-    margin: 10px auto;
+    margin: 10px;
 }
 
 
@@ -94,7 +96,7 @@ th,td {
   /* border-collapse: collapse; */
 }
 .box{
-  float: left;
+  float: right;
   box-sizing: border-box;
 }
 
