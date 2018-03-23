@@ -1,70 +1,92 @@
-h1{
-  font-family: 'Rammetto One', cursive;
-}
-h2{
-  font-family: 'Signika Negative', sans-serif;
-  font-size: 40px;
-
-
-}
-p{
-  font-family: 'Gilda Display', serif;;
-
+h1 {
+ font-family: 'Rammetto One', cursive;
 }
 
-table{
-  font-family: 'IM Fell Double Pica', serif;
+h2 {
+ font-family: 'Signika Negative', sans-serif;
+ font-size: 40px;
 }
+
+p {
+ font-family: 'Gilda Display', serif;
+}
+
+table {
+ font-family: 'IM Fell Double Pica', serif;
+}
+
 body {
-  background-color: violet;
-  width: 80%;
-  margin: 0 auto;
-
+background-color: violet;
+width: 80%;
+margin: 0 auto;
 }
-.p-sites{
-  position: relative;
-  bottom: 110px;
-  max-width:560px;
-  float:right 0,5em;
+
+.clearfix {
+  overflow: auto;
+  zoom: 1;
+}
+
+table  {
+  border: 1px solid;
+  border-collapse: collapse;
+  width: 100%;
+  margin: 0 auto;
+}
+
+th,td {
+  padding: 10px;
+  border: 1px solid;
+  border-collapse: collapse;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.img-sites {
+  margin-right: 0.5em;
+}
+
+.box-sizing {
+  padding: 0.75em;
   box-sizing: border-box;
 }
-#castle-p{
-  position: relative;
-  bottom: 60px;
-    max-width: 500px;
-}
 
-#profile-img{
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-}
-.cent{
-  text-align: center;
-}
+/* .about h1 {
+  padding: 1em;
+
+} */
 
 
-.site-imgs{
-  width:200px;
-  height:150px;
-  padding-right: 45px;
-  margin-left:  10px;
-}
-.clearfix {
-    overflow: auto;
-    clear: all;
+@media (min-width: 780px;) {
+  .box-sizing {
+    width: 100%;
+    float: left;
+  }
+
+  .container{
+    width: 85%;
+  }
+  .img{
+    float: left;
+    margin: 2em;
+  }
 }
 
 
 
-.City {
+
+
+
+/*.City {
     width: 90%;
     padding-left: 10px;
     margin: 10px;
 }
-
-
-
 
 #city-img{
   width: 631px;
@@ -75,40 +97,30 @@ body {
   position: relative;
   left: 10px;
 } */
-/* .language {
+
+ /* .language {
   width: 100%;
   height: auto;
 }
 .language h4 {
 text-align: center;
-}
-
-.language table {
-  border: 1px solid;
-  /* border-collapse: collapse; */
-  /* width: 80%;
-  margin: 0 auto;
 } */
-th,td {
-  width: 50%;
-  /* padding: 10px; */
-  border: 1px solid;
-  /* border-collapse: collapse; */
-}
-.box{
+
+ /* .box{
   float: right;
   box-sizing: border-box;
-}
+} */
 
-/* .site-box {
+ /* .site-box {
   font-size:10px;
   font-style: normal;
 } */
-/* .site{
+
+ /* .site{
   width: 90%;
   margin:10px auto;
 } */
 
-/* .site p {
+ /* .site p {
   text-align: justify;
   margin: auto; */
