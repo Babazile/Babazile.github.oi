@@ -47,20 +47,20 @@ body {
   height:200px;
   border-color: bold green;
   padding-right: 45px;
-s
 }
-@media only screen and (max-width: 768px) {
-    {
-        width: 100%;
-    }
+.clearfix::after {
+    content: "";
+    clear: both;
 }
 
-/* / */
-/* .City {
+
+
+
+.City {
     width: 90%;
     padding-left: 10px;
     margin: 10px auto;
-} */
+}
 
 
 
