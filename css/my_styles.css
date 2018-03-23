@@ -56,15 +56,14 @@ th,td {
   box-sizing: border-box;
 }
 
-/* .about h1 {
-  padding: 1em;
-
-} */
-
+.districtsix, .parliamant, .castle {
+  width: 30%;
+  float: left;
+}
 
 @media (min-width: 780px;) {
   .box-sizing {
-    width: 100%;
+    width: 30%;
     float: left;
   }
 
