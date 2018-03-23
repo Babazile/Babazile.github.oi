@@ -16,14 +16,15 @@ table {
 }
 
 body {
-background-color: violet;
-width: 80%;
-margin: 0 auto;
+  background-color: violet;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .clearfix {
-  overflow: auto;
-  zoom: 1;
+  content: "";
+  display: table;
+  clear: both;
 }
 
 table  {
@@ -51,29 +52,26 @@ th,td {
   margin-right: 0.5em;
 }
 
-.box-sizing {
-  padding: 0.75em;
-  box-sizing: border-box;
+.city img {
+  float : left;
 }
 
-.districtsix, .parliamant, .castle {
-  width: 30%;
-  float: left;
-}
+@media (min-width: 780px) {
 
-@media (min-width: 780px;) {
-  .box-sizing {
+  .box {
     width: 30%;
     float: left;
+
+    margin-left: 1%;
+    padding : 1%;
+
   }
 
   .container{
     width: 85%;
   }
-  .img{
-    float: left;
-    margin: 2em;
-  }
+
+
 }
 
 
